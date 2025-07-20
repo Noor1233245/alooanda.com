@@ -1,0 +1,64 @@
+.top-bar
+{
+  background-color: #fff;
+  box-shadow:  5px 5px 5px 5px  gray;
+}
+
+
+ .top-nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    height: 6rem;
+    font-size: 1rem;
+    max-width: 71.25rem;
+    margin: 0 auto;
+ }
+
+ .top-nav__logo{
+   margin: 1rem;
+    width: 3.5rem;
+ }
+.top-nav__links
+{
+
+     display: inline;
+}
+
+
+
+.top-nav__links li 
+
+{
+    display: inline-block;
+} 
+.top-nav__links li a{
+   display: inline;
+   padding: 0.6rem 1rem;
+   color: grey;
+   font-size: 0.9rem;
+   font-weight: 500;
+}
+.top-nav__links li a:hover{
+   color: yellow;
+}
+
+.hero{
+   background-image: url("../img/bg2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__container{
+   max-width: 71.25rem;
+    margin: 0 auto;
+}
+
+/*  FLEXBOX
+display: flex;
+justify-content: space-between;
+align-items: center; */
+body{
+    background-color: aquamarine;
+    color: black;
+}

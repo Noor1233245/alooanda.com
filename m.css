@@ -1,0 +1,86 @@
+body {
+      font-family: "popins", sans-serif;
+      background: rgb(196, 246, 223);
+      color: black;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      scrollbar-color: red;
+    }
+header {
+  background-color: orange;
+  color: black;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  border-radius: 500px;
+  
+}
+
+
+.intro{
+    background-color:bisque;
+    color: black;
+    padding: 10px;
+    border-top-right-radius: 900px;
+    border-bottom-left-radius:900px ;
+    text-align: center;
+    
+}
+.deco{
+    background-color: rgb(26, 229, 172);
+    color: black;
+    padding: 10px;
+    border-radius: 500px;
+}
+.anda{
+    text-decoration: none;
+    text-align: left;
+    text-overflow: ellipsis;
+    text-indent: none;
+    text-transform: capitalize;
+    color: black;
+
+.nav{
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 999;
+}
+}
+nav a {
+  text-decoration: none; /* ✨ removes underline */
+  color: white;
+  margin: 0 10px;
+  padding: 8px 12px;
+  background-color: #2a9d8f;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #21867a;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+ul li a {
+  text-decoration: none;   /* ✨ underline hata dega */
+  color: #333;              /* 🔹 apni marzi ka color */
+  padding: 8px 12px;
+  display: inline-block;
+  transition: color 0.3s, background 0.3s;
+}
+
+ul li a:hover {
+  color: white;
+  background-color: #e76f51;
+  border-radius: 5px;
+}
+
+
+
