@@ -1,0 +1,124 @@
+
+body {
+      font-family: "popins", sans-serif;
+      background: rgb(196, 246, 223);
+      color: black;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 20px;
+      scrollbar-color: red;
+    
+    }
+header {
+  background-color: orange;
+  color: black;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  border-radius: 500px;
+  
+}
+
+
+.intro{
+    background-color:bisque;
+    color: black;
+    padding: 10px;
+    border-top-right-radius: 900px;
+    border-bottom-left-radius:900px ;
+    text-align: center;
+    
+}
+.deco{
+    background-color: rgb(26, 229, 172);
+    color: black;
+    padding: 10px;
+    border-radius: 500px;
+}
+.anda{
+    text-decoration: none;
+    text-align: left;
+    text-overflow: ellipsis;
+    text-indent: none;
+    text-transform: capitalize;
+    color: black;
+
+.nav{
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 999;
+}
+}
+nav a {
+  text-decoration: none; /* ✨ removes underline */
+  color: white;
+  margin: 0 10px;
+  padding: 8px 12px;
+  background-color: #2a9d8f;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #21867a;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+ul li a {
+  text-decoration: none;   /* ✨ underline hata dega */
+  color: #333;              /* 🔹 apni marzi ka color */
+  padding: 8px 12px;
+  display: inline-block;
+  transition: color 0.3s, background 0.3s;
+}
+
+ul li a:hover {
+  color: white;
+  background-color: #e76f51;
+  border-radius: 5px;
+}
+
+img {
+  width: 300px;         /* Image ki width fix karna */
+  height: auto;         /* Height ko auto rakhna taa keh ratio na kharab ho */
+  border: 2px solid black; /* Border lagana */
+  border-radius: 10px;  /* Image ke corners gol karna */
+  padding: 5px;         /* Image ke andar ka space */
+  margin: 10px;         /* Image ke bahar ka space */
+  display: block;       /* Center karne ke liye helpful */
+  box-shadow: 0 0 10px gray; /* Shadow effect */
+  align-items: flex-end;
+}
+
+
+img {
+  float: right;
+  width: 300px;
+  margin-left: 20px; /* Text aur image ke beech space */
+  border-radius: 10px;
+}
+
+section {
+  font-size: 18px;       /* Bara font */
+  line-height: 1.8;      /* Lines ke beech gap */
+  margin-bottom: 30px;   /* Har section ke beech space */
+  color: #333;           /* Thoda soft color for reading */
+}
+
+
+
+
+
+
+
+
+
+
+
